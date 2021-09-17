@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "Sporting_Grotesque";
+ src: url("Sporting_Grotesque-Regular_web.woff2") format("woff2"),
+        url("Sporting_Grotesque-Regular_web.woff") format("woff");
+}
+body{
+    font-family: "Sporting_Grotesque",sans-serif;
+    background: rgb(250, 213, 219);
+}
+p{
+    
+}
