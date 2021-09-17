@@ -6,7 +6,16 @@
 body{
     font-family: "Sporting_Grotesque",sans-serif;
     background: rgb(250, 213, 219);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
 }
-p{
-    
+h1{
+    background: pink;
+    padding: 2%;
+    grid-column: 1/4;
 }
+h2{
+    grid-column: 1/4;
+}
+
+
