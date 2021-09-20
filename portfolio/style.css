@@ -3,7 +3,6 @@
     src: url("Sporting_Grotesque-Regular_web.woff2") format("woff2"),
         url("Sporting_Grotesque-Regular_web.woff") format("woff");
 }
-@media(min-width:640px)
 
 .grid {
     display: grid;
