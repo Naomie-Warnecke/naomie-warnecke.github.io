@@ -43,3 +43,17 @@ img{
     display: block;
     grid-column-gap: 8px
 }
+.imgspe{
+    max-width: 100%;
+    height: auto;
+    grid-column: 1/3;
+    margin: 8px;
+    margin-right: 8px;
+}
+.imgspezoom{
+    grid-column: 2/3;
+}
+.specimenimg{
+    grid-column: 1/3;
+    text-align: center;
+}
