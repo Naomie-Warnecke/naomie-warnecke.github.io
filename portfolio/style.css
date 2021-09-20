@@ -24,6 +24,9 @@ h1{
     padding: 2%;
     grid-column: 1/2;
 }
+.title{
+    position: sticky;
+}
 .graphisme-typo,
 .photo-multi{
     grid-column: 1/3;
