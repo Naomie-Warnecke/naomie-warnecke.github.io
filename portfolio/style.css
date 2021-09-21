@@ -15,6 +15,9 @@ body {
     margin-bottom: 8px;
     margin-right: 8px;
     justify-content: center;
+}
+desc{
+    display: grid;
     grid-column: 1/4
 }
 .grid {
@@ -60,7 +63,7 @@ h1 {
 h2 {
     text-align: center;
     margin: 2%;
-    grid-column: 1/2;
+    grid-column: 1/4;
 }
 
 img {
