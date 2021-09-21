@@ -8,10 +8,12 @@
     display: grid;
     grid-template-columns: 3x200px;
     grid-template-rows: 1/3;
+    margin: 8px;
+    gap: 8px;
 }
 
 .child {
-    grid-column-start: 2/3;
+    grid-column-start: 3/4;
     text-align: right;
     display: grid
 }
@@ -19,8 +21,11 @@
 @media(min-width: 640px){
 body {
     font-family: "Sporting_Grotesque", sans-serif;
-    background: rgb(255, 223, 229);
-    background: url("") rgb(255, 175, 175) repeat-y fixed;
+    background: rgb(253, 219, 219);
+    background-color: #ffc2f5;
+    opacity: 1;
+    background-image: radial-gradient(#ff1d93 0.75px, #ffc2f5 0.75px);
+    background-size: 15px 15px;")
     display: grid;
     grid-template-columns: 3x200px;
     margin-bottom: 8px;
