@@ -4,59 +4,54 @@
         url("Sporting_Grotesque-Regular_web.woff") format("woff");
 }
 
-
 body {
     font-family: "Sporting_Grotesque", sans-serif;
     opacity: 1;
     background-image: radial-gradient(#ff1d93 0.75px, #ffc2f5 0.75px);
     background-size: 15px 15px;
     display: grid;
-    grid-template-columns: repeat(1,200px);
+    grid-template-columns: repeat(1, 200px);
     margin-bottom: 8px;
     margin-right: 8px;
     justify-content: center;
 }
-desc{
+
+a.hori {
     display: grid;
     grid-column: 1/4
 }
+
+p.desc {
+    display: grid;
+    grid-column: 1/4
+}
+
 .grid {
     display: grid;
-    grid-template-columns: repeat(1,200px);
-    grid-template-rows: 1/3;
+    grid-template-columns: repeat(1, 200px);
+    grid-template-rows: 1/4;
     margin: 8px;
     gap: 8px;
 }
-soustitre{
+
+soustitre {
     grid-column: 1/4
-    
 }
 
-.child {
+child {
     grid-column-start: 3/4;
     text-align: right;
     display: grid
 }
 
-@media(min-width: 640px){
-    body{
-        grid-template-columns: repeat(3,200px);
-
-    }
-}
-
 h1 {
     padding: 2%;
-    grid-column: 1/3;
-}
-
-.title {
-    position: sticky;
+    grid-column: 1/4;
 }
 
 .graphisme-typo,
 .photo-multi {
-    grid-column: 1/3;
+    grid-column: 1/4;
     text-align: center;
 }
 
@@ -82,7 +77,7 @@ img {
 }
 
 .imgspezoom {
-    grid-column: 1/3;
+    grid-column: 1/4;
 }
 
 .specimenimg {
@@ -95,46 +90,43 @@ img {
     text-align: center;
     font-size: 16px;
 }
-.compo-abstraite{
+
+.compo-abstraite {
     max-width: 100%;
     height: auto;
-    grid-column: 1/3;
+    grid-column: 1/4;
     margin: 8px;
     margin-right: 8px;
 }
-.compo-abstraite{
+
+.compo-abstraite {
     display: block;
     max-width: 100%;
     height: auto;
 }
-.photo-paysage{
+
+.photo-paysage {
     display: grid;
     max-width: 100%;
     height: auto;
-    grid-column: 1/3;
+    grid-column: 1/4;
     margin: 8px;
     margin-right: 8px;
 }
-.photo-concepts{
+
+.photo-concepts {
     display: grid;
     max-width: 100%;
     height: auto;
-    grid-column: 1/3;
+    grid-column: 1/4;
     margin: 8px;
     margin-right: 8px;
 }
-.video{
+
+.video {
     /*video in repeat*/
     display: grid;
     max-width: 100%;
     height: auto;
-    grid-column: 1/3;
-}
-a{
-    filter: grayscale(0.5px);
-}
-a:hover{
-    filter: none;
-}
-video{
+    grid-column: 1/4;
 }
